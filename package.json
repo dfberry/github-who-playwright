@@ -1,0 +1,16 @@
+{
+  "name": "github-api-playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test ./tests",
+    "postinstall": "npx playwright install && npx playwright install-deps"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.17.1"
+  }
+}
